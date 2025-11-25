@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Culinary Lounge</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
+      background-color: rgb(142, 53, 1);
+    }
+
+    /* HERO SECTION */
+    .hero {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .hero h1 {
+      font-size: 70px;
+      font-weight: bold;
+      margin: 0;
+    }
+
+    .hero p {
+      font-size: 24px;
+      opacity: 0.8;
+      margin-top: 15px;
+    }
+
+    /* BLOG SECTION */
+    .blog-section {
+      background-image: url("indian-food-bg.jpg");
+      background-size: cover;
+      background-position: center;
+      padding: 100px 20px;
+    }
+
+    .blog-content {
+      max-width: 900px;
+      margin: auto;
+      text-align: center;
+      background: rgba(0, 0, 0, 0.55);
+      padding: 40px;
+      border-radius: 20px;
+    }
+
+    .blog-content h2 {
+      font-size: 40px;
+      margin-bottom: 20px;
+    }
+
+    .blog-content p {
+      font-size: 20px;
+      line-height: 1.6;
+    }
+
+    /* ENGAGEMENT SECTION */
+    .engagement {
+      background: white;
+      color: black;
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    .engagement h2 {
+      font-size: 42px;
+      margin-bottom: 50px;
+      font-weight: bold;
+    }
+
+    .grid {
+      max-width: 1100px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 30px;
+    }
+
+    .card {
+      padding: 30px;
+      border-radius: 15px;
+      border: 1px solid #ccc;
+      box-shadow: 0px 0px 12px rgba(0,0,0,0.15);
+      text-align: left;
+    }
+
+    .card h3 {
+      font-size: 26px;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      font-size: 19px;
+      line-height: 1.6;
+    }
+
+    @media (min-width: 800px) {
+      .grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <h1>The Culinary Lounge</h1>
+    <p>Where food becomes connection</p>
+  </section>
+
+  <!-- BLOG SECTION -->
+  <section class="blog-section">
+    <div class="blog-content">
+      <h2>Food. A Form of Connection.</h2>
+      <p>
+        Food. A form of connection, bonding, and getting together. At The Culinary Lounge,
+        each dish narrates a story, every spice shares a smile, and every joy is a shared
+        experience. When people cook and eat together, they break the barriers and create
+        genuine lasting relationships. Here, a simple recipe becomes a memory. In times
+        where digital screens dominate human interaction, our culinary experiences bring
+        back the warmth of real togetherness. The Culinary Lounge isn’t just a place to
+        cook — it is a place to belong, explore flavours and cultures, and discover the joy
+        of people.
+      </p>
+    </div>
+  </section>
+
+  <!-- ENGAGEMENT SECTION -->
+  <section class="engagement">
+    <h2>How I Will Increase Engagement</h2>
+
+    <div class="grid">
+      <div class="card">
+        <h3>1. 1-Minute Documentary Reels</h3>
+        <p>Short reels featuring iconic dishes — their history, the chefs behind them, unique making styles, and cinematic b-rolls.</p>
+      </div>
+
+      <div class="card">
+        <h3>2. Event & Experience Captures</h3>
+        <p>Document moments of people cooking together — laughter, teamwork, plating — turned into reels that emotionally resonate.</p>
+      </div>
+
+      <div class="card">
+        <h3>3. Reviews & Experience Montages</h3>
+        <p>Honest reviews stitched into a cinematic video ending with upcoming event announcements.</p>
+      </div>
+
+      <div class="card">
+        <h3>4. Instagram Carousel Series</h3>
+        <p>A visually driven mix of food, emotions, abstract captures, culture & community.</p>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
